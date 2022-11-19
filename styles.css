@@ -1,0 +1,154 @@
+body {
+    background: rgb(239, 250, 247);
+    color: rgb(0, 0, 0);
+
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+color: rgb(26, 90, 63);
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: darkslategray;
+}
+a:visited {
+    color: grey;
+}
+
+ .avatar {
+    border-radius: 28px;
+box-shadow: 4px 4px 14 px rgba (0 0 0 0.70)
+
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width:700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+
+}
+    
+
+
+
+.info-text{
+    margin-left:50px ;
+}
+.info-text h2{
+    margin-bottom: 10px;
+    color: rgb(39, 117, 66);
+}
+.info p {
+    color: rgb(21, 74, 68);
+    margin: 2;
+    word-spacing: 5px;
+}
+
+.container{
+   max-width: 75%;
+   margin: auto;
+   padding: 15px 20px 25px 30px;
+border: 50px;
+margin: 20px;
+}
+
+.bg-red {
+    background: rgb(255, 240, 235);
+}
+.bg-blue {
+    background: rgb(216, 251, 255);
+}
+.bg-green {
+    background: rgb(232, 255, 209);
+}
+
+.card {
+    color: rgb(20, 98, 72);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.list li {
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+.table{
+    width: 75%;
+    margin-bottom: 10px;
+}
+.link-list{
+    list-style: none;
+    padding: 0px;
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 1px solid gray;
+}
+.contact h3{
+    color: rgb(36, 122, 62);
+    text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+color: grey;
+}
+
+.form-group input,
+.form-group textarea
+{
+    
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid#ccc;
+    color: #ccc;
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom:30px;
+}
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+} 
+.btn {
+    background: rgb(184, 233, 221);
+    padding: 15px 20px;
+    color: rgb(84, 83, 83);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+cursor: pointer;
+}
+
+.btn hover{
+    opacity: 0.9;
+}
